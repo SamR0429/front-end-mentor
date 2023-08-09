@@ -1,3 +1,4 @@
+
 body {
     background-color: hsl(30, 38%, 92%);
     font-family: "Montserrat", "sans-serif";
@@ -7,10 +8,12 @@ body {
 .box-for-page {
     margin: 20px;
     border-radius: 1rem;
-    border: solid black; /*color is there rn to see that box is there */
+    border: solid black;
     background-color: white;
-    /*position: relative;*/
     display: flex;
+    width: 700px;
+    font-size: 18px;
+    justify-content: center;
 }
 
 .add-to-cart{
@@ -19,10 +22,9 @@ body {
     background-color: hsl(158, 36%, 37%);
     font-size: 25px;
     border-radius: 5px;
-   text-align: center;
-    padding-top: 7px;
+    text-align: center;
+    padding-top: 3px;
     color: white;
-
 }
 
 .regular-price{
@@ -48,6 +50,7 @@ h1{
 
 .left-side{
     flex-direction: row;
+
 }
 .right-side{
     flex-direction: row-reverse;
@@ -56,6 +59,11 @@ h1{
 
 .prices{
     flex-direction: row;
+}
+
+img{
+    border-radius: .5rem 0rem 0rem 1rem;
+
 }
 
 @media screen and (min-width: 375px){
